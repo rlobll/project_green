@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        /* 초기화 */
+        header, main, footer, div, h1, h2, div, p, form, fieldset {
+            margin: 0;
+            padding: 0
+        }
+        fieldset {
+            border: none
+        }
+        .hide {
+            position: absolute;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            margin: -1px;
+            text-indent: -9999px;
+            border: none
+        }
+        body {
+            font-size: 13px;
+            font-family: '나눔바른고딕'
+        }
+
+        /* 헤더 */
+        header {
+            height: 200px;
+            background: #FDF4E3;
+            width: 1200px;
+            margin: 0 auto 80px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+
+
+        /* 메인 */
+        main {
+            width: 1200px;
+            margin: 0 auto 80px
+        }
+        h2 {
+            text-align: center;
+            margin: 60px;
+            font-size: 30px
+        }
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            width: 200px;
+            border: 1px solid #cbcbcb;
+            padding: 13px;
+            border-radius: 7px;
+        }
+        .u_id {
+            margin-bottom: 15px;
+            position: relative;
+        }
+        #u_id {
+            padding-right: 75px;
+            box-sizing: border-box;
+            width: 228px;
+        }
+        .id_repeat {
+            position: absolute;
+            right: 8px;
+            top: 8px;
+        }
+        .u_pwd {
+            margin-bottom: 15px;
+        }
+        .u_repwd {
+            margin-bottom: 15px;
+        }
+        .u_name {
+            margin-bottom: 15px;
+        }
+        #tel {
+            margin-bottom: 5px;
+        }
+        span {
+            color: gray;
+            font-size: 11px;
+            padding-left: 8px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .email {
+            margin-bottom: 30px;
+        }
+        /* .apply {
+            margin-bottom: 40px;
+        }
+        #apply {
+            width: 15px;
+        } */
+        button {
+            background: #FFB862;
+            color: #fff;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn {
+            text-align: center;
+        }
+
+
+
+        /* 푸터 */
+        footer {
+            height: 200px;
+            background: #FDF4E3;
+            width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>맛따라 멋따라</h1>
+    </header>
+
+    <main id="main">
+        <h2>회원가입</h2>
+        <form>
+            <fieldset>
+                <legend class="hide">회원가입</legend>
+                <p class="u_id">
+                    <label for="u_id"></label>
+                    <input type="text" name="u_id" id="u_id" placeholder="아이디">
+                    <button type="button" class="id_repeat">중복확인</button>
+                </p>
+                <p class="u_pwd">
+                    <label for="u_pwd"></label>
+                    <input type="password" name="u_pwd" id="u_pwd" placeholder="비밀번호">
+                </p>
+                <p class="u_repwd">
+                    <label for="u_repwd"></label>
+                    <input type="password" name="u_repwd" id="u_repwd"  placeholder="비밀번호 확인">
+                </p>
+
+                <p class="u_name">
+                    <label for="u_name"></label>
+                    <input type="text" name="u_name" id="u_name" placeholder="이름">
+                </p>
+            
+                <p class="tel">
+                    <label for="tel"></label>
+                    <input type="text" id="tel" placeholder="휴대전화번호">
+                    <span class="tel_text">숫자만 입력하세요.</span>
+                </p>
+            
+                <p class="email">
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="이메일">
+                </p>
+            
+                <!-- <p class="apply">
+                    <input type="checkbox" name="apply" id="apply" value="y">
+                    <label for="apply">약관동의</label>
+                </p> -->
+                
+                <p class="btn">
+                    <button type="submit">회원가입</button>
+                    <button type="button">이전으로</button>
+                </p>
+
+            </fieldset>
+        </form>
+    </main>
+
+    <footer id="footer"></footer>
+</body>
+</html>
