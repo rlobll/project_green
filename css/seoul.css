@@ -93,59 +93,7 @@ main {
 
 
 /* 콘텐츠 */
-.korean_top3 h3 {
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 80px;
-}
-.korean_top3 > div {
-    width: 1000px;
-    margin: 0 auto 160px;
-}
-.korean1 {
-    display: flex;
-    gap: 30px;
-    border: 1px solid #cbcbcb;
-}
 
-/* 이미지 크기 조정 */
-.korean_top3 img {
-    width: 300px;
-}
-/* // */
-
-.korean2 {
-    display: flex;
-    gap: 30px;
-    flex-direction: row-reverse;
-    border: 1px solid #cbcbcb;
-}
-.korean3 {
-    display: flex;
-    gap: 30px;
-    border: 1px solid #cbcbcb;
-}
-.korean1_info {
-    font-size: 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.korean2_info {
-    font-size: 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.korean3_info {
-    font-size: 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 
 
