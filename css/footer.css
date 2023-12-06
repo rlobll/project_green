@@ -14,7 +14,7 @@
     display: flex;
   }
   .bottom_logo {
-    padding: 0 150px 30px 30px;
+    padding: 0 150px 0 30px;
   }
   .bottom_logo span {
     display: block;
@@ -37,4 +37,7 @@
   .sns img {
     width: 50px;
     height: 50px;
+  }
+  .bottom_copy {
+    font-size: 18px;
   }

@@ -11,10 +11,11 @@
   }
   .logo {
     width: 1200px;
-    font-size: 35px;
+    font-size: 50px;
     margin: auto;
     text-align: end;
     padding: 100px 0;
+    font-family: "Crown 마이쮸";
   }
   .gnb {
     display: flex;
@@ -24,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 208px;
+    top: 202px;
   }
   .one_deps li {
     padding: 0 30px;
@@ -34,7 +35,7 @@
     line-height: 2em;
   }
   .local {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
   }
   .one_deps li ul {
@@ -43,19 +44,17 @@
     font-size: 17px;
     position: relative;
     z-index: 10;
-  
     display: none;
   }
   .nav_bg {
     width: 100%;
-    height: 200px;
+    height: 220px;
     background: #ffb862;
     opacity: 0.5;
     position: absolute;
     left: 0;
-    top: 248px;
-  
-    display: none;
+    top: 250px;
+    display: none;  
   }
   .top_menu_wrap {
     position: absolute;

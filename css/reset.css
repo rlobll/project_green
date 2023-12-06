@@ -16,7 +16,8 @@ ul, li {
     list-style: none
 }
 body {
-    font-size: 13px
+    font-family: "학교안심 우주" ;
+    font-size: 15px
 }
 a {
     color: inherit;
