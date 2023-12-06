@@ -61,9 +61,26 @@
   width: 60px;
   cursor: pointer;
 }
-.dmsql {
+
+.best_menu {
   width: 1200px;
   display: flex;
   justify-content: center;
   margin: auto;
+}
+.best_menu h3 {
+  padding: 10px 20px 10px 0;
+}
+.best_3 {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.best_3 img {
+  width: 300px;
+  height: 150px;
+}
+.store {
+  margin-bottom: 30px;
 }
