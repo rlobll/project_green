@@ -8,7 +8,7 @@
     border: none
 }
 
-body, header, main, footer, div, p, h1, h2, h3, ul, li, dl, dt, dd, button, form, fieldset, address {
+body, header, main, footer, div, p, h1, h2, h3, h4, ul, li, dl, dt, dd, button, form, fieldset, address {
     padding: 0;
     margin: 0
 }
