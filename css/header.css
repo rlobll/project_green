@@ -61,7 +61,7 @@
     position: absolute;
     top: 20px;
   }
-  .top_menu {
+  header .top_menu {
     width: 1200px;
     display: flex;
     position: absolute;
