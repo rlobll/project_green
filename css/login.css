@@ -1,0 +1,76 @@
+.main {
+  position: relative;
+  z-index: 1;
+}
+.main form {
+  width: 1200px;
+  display: flex;
+  margin: 100px auto;
+  justify-content: center;
+}
+.main fieldset {
+  width: 500px;
+  text-align: center;
+}
+.main legend {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.id_pwd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.id_pwd input {
+  margin-bottom: 10px;
+  padding: 15px 10px 15px 40px;
+  border: 1px solid #cbcbcb;
+  border-radius: 7px;
+}
+.id input {
+  background: url(../img/login_icon.png) no-repeat;
+  background-size: 25px;
+  background-position: 5px;
+}
+.pwd input {
+  background: url(../img/password_icon.png) no-repeat;
+  background-size: 25px;
+  background-position: 5px;
+}
+.state {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.login_btn {
+  display: flex;
+  width: 220px;
+  height: 45px;
+  border: 1px solid #ffb862;
+  border-radius: 7px;
+  background: #ffb862;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+.login_btn button {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.find {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.find a {
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.id_find,
+.pwd_find {
+  border-right: 1px solid #ffb862;
+}

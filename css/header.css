@@ -1,0 +1,103 @@
+.header {
+  /* height: 200px;*/
+  position: relative;
+  z-index: 3;
+}
+.header_total {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ffb862;
+  position: relative;
+}
+.logo {
+  font-family: "Crown 마이쮸 Regular";
+  width: 1200px;
+  font-size: 50px;
+  margin: auto;
+  text-align: end;
+  padding: 100px 0;
+}
+.gnb {
+  display: flex;
+}
+.one_deps {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 202px;
+}
+.one_deps li {
+  padding: 0 30px;
+  text-align: center;
+}
+.one_deps li a {
+  line-height: 2em;
+}
+.local {
+  font-size: 25px;
+  font-weight: bold;
+}
+.one_deps li ul {
+  background: #ffb862;
+  padding: 10px;
+  font-size: 17px;
+  position: relative;
+  z-index: 10;
+
+  display: none;
+}
+.nav_bg {
+  width: 100%;
+  height: 220px;
+  background: #ffb862;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 250px;
+
+  display: none;
+}
+.top_menu_wrap {
+  position: absolute;
+  top: 20px;
+}
+.top_menu {
+  width: 1200px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-end;
+}
+.top {
+  display: flex;
+  margin-right: 10px;
+}
+.login,
+.join {
+  font-size: 15px;
+}
+.login {
+  display: flex;
+  align-items: center;
+}
+.login::after {
+  content: "";
+  width: 1px;
+  height: 15px;
+  display: block;
+  background: #ffb862;
+  margin: 0 10px;
+}
+.input {
+  width: 130px;
+  padding: 6px 30px 6px 5px;
+}
+.btn img {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  border-radius: 20%;
+}

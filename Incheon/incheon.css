@@ -1,0 +1,69 @@
+.main {
+  position: relative;
+  z-index: 1;
+}
+.main_total {
+  width: 1200px;
+  margin: 100px auto;
+}
+.incheon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.incheon h2 {
+  font-size: 25px;
+  padding: 10px 20px 10px 0;
+  border-right: 2px solid #ffb862;
+}
+
+.main_gnb ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  align-items: center;
+}
+.main_gnb ul li {
+  text-align: center;
+}
+.main_gnb a {
+  font-size: 18px;
+}
+.main_gnb img {
+  width: 60px;
+  display: block;
+  margin-bottom: 10px;
+}
+.kor:hover {
+  content: url(../img/KakaoTalk_20231201_153025071.png);
+  width: 60px;
+  cursor: pointer;
+}
+.eng:hover {
+  content: url(../img/free-icon-pizza-1867845.png);
+  width: 60px;
+  cursor: pointer;
+}
+.chn:hover {
+  content: url(../img/free-icon-jjajangmyeon-8269654.png);
+  width: 60px;
+  cursor: pointer;
+}
+.jan:hover {
+  content: url(../img/free-icon-nigiri-5391971.png);
+  width: 60px;
+  cursor: pointer;
+}
+.tteok:hover {
+  content: url(../img/free-icon-tteokbokki-6609199.png);
+  width: 60px;
+  cursor: pointer;
+}
+.dmsql {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
