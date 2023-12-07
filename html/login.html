@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>맛따라멋따라</title>
+    <title>로그인</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/login.css" />
   </head>
   <body>
     <header class="header" id="header">
       <div class="header_total">
         <div class="menu_wrap">
-          <h1 class="logo"><a href="#">맛따라멋따라</a></h1>
+          <h1 class="logo"><a href="index.html">맛따라멋따라</a></h1>
           <div class="menu">
             <nav class="gnb">
               <h2 class="hide">메인메뉴</h2>
@@ -101,54 +101,46 @@
       </div>
     </header>
 
-    <main class="main" id="main">
+    <main class="main">
       <div class="main_total">
-        <div class="box">
-          <ul>
-            <li>
-              <a href="seoul.html">
-                <img src="../images/KakaoTalk_20231204_115658712.jpg" alt="" />
-                <span>서울</span>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <img src="../images/KakaoTalk_20231204_120421275.jpg" alt="" />
-                <span> 인천</span>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <img src="../images/KakaoTalk_20231204_120252709.jpg" alt="" />
-                <span>강원도</span>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <img src="../images/KakaoTalk_20231204_121658032.jpg" alt="" />
-                <span>전라도</span>
-              </a>
-            </li>
-            <li>
-              <a href="#none">
-                <img src="../images/KakaoTalk_20231204_121939835.jpg" alt="" />
-                <span>제주도</span>
-              </a>
-            </li>
-            <li>
-              <div class="random">
-                <img src="../images/KakaoTalk_20231204_122045640.jpg" alt="" />
-                <span> 오늘의 추천 메뉴</span>
-                <button type="button" class="box_btn">다시~</button>
-              </div>
-              <p></p>
-            </li>
-          </ul>
-        </div>
+        <h1 class="hide">로그인 페이지</h1>
+        <form action="">
+          <fieldset>
+            <legend>로그인</legend>
 
-        <div class="roulette">
-          <p>메뉴 랜덤 뽑기~</p>
-        </div>
+            <div class="id_pwd">
+              <div class="id">
+                <label for="">
+                  <span class="hide">아이디</span>
+                  <input type="text" placeholder="아이디" />
+                </label>
+              </div>
+              <div class="pwd">
+                <label for="">
+                  <span class="hide">비밀번호</span>
+                  <input type="text" placeholder="비밀번호" />
+                </label>
+              </div>
+            </div>
+
+            <div class="state">
+              <label for="">
+                <input type="checkbox" />
+                <span>로그인 상태 유지</span>
+              </label>
+            </div>
+
+            <div class="login_btn">
+              <button type="button">로그인</button>
+            </div>
+
+            <div class="find">
+              <a href="#none" class="id_find">아이디 찾기</a>
+              <a href="#none" class="pwd_find">비밀번호 찾기</a>
+              <a href="#none">회원가입</a>
+            </div>
+          </fieldset>
+        </form>
       </div>
     </main>
 
