@@ -1,13 +1,23 @@
 /* 메인 */
 main {
-    width: 1200px;
-    margin: 150px auto 80px;
+    margin: 120px auto 80px;
 }
 
 /* 탑메뉴 */
+.bg {
+    background: #fdf4e33c;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+}
+.main_wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
 main .top_menu {
+    width: 800px;
     display: flex;
-    margin: 0 auto 150px;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
@@ -19,10 +29,10 @@ main .top_menu h2 {
 main .top_menu h2:after {
     content: "";
     display: block;
-    width: 5px;
-    height: 50px;
+    width: 2px;
+    height: 55px;
     background: #FFB862;
-    margin: 0 50px 0 15px
+    margin: 0 42.75px 0 15px
 }
 /* .top_menu span {
     display: block;
@@ -32,7 +42,7 @@ main .top_menu h2:after {
     margin: 0 50px 0 15px;
 } */
 main .top_menu ul {
-    width: 500px;
+    width: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,7 +85,7 @@ main .top_menu ul li:last-child:hover {
 
 /* 콘텐츠 */
 h3 {
-    font-size: 38px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 80px;
@@ -86,6 +96,7 @@ h4 {
     padding-left: 10px;
     box-sizing: border-box;
 }
+/* best3 */
 .western {
     text-align: end;
     padding-right: 10px;
@@ -109,6 +120,7 @@ section img {
 .seoul_food2 {
     flex-direction: row-reverse;
 }
+/* 한식 ~ 분식 */ 
 .food1 img, .food3 img {
     margin-right: 15px;
 }
