@@ -40,6 +40,9 @@ tr, td {
     justify-content: center;
     margin-bottom: 30px;
 }
+.number_wrap a:first-child {
+    text-decoration: underline;
+}
 /* .board_search_wrap {
     display: flex;
     justify-content: center;
@@ -71,4 +74,31 @@ tr, td {
     border: 1px solid #cbcbcb;
     padding: 5px;
     width: 220px;
+}
+
+tbody tr:nth-child(1) {
+    background: #fdf4e33c;
+}
+tbody tr:nth-child(2) {
+    background: #fdf4e33c;
+}
+tbody tr:nth-child(3) {
+    background: #fdf4e33c;
+}
+
+tbody tr:nth-child(1) td:nth-child(2) {
+    color: red;
+    font-weight: bold;
+}
+tbody tr:nth-child(2) td:nth-child(2) {
+    color: #FFB862;
+    font-weight: bold;
+}
+tbody tr:nth-child(3) td:nth-child(2) {
+    color: #FFB862;
+    font-weight: bold;
+}
+
+tbody tr td:nth-child(3) {
+    font-size: 13px;
 }
