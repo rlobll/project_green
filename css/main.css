@@ -56,7 +56,37 @@
   padding: 15px;
 }
 
-.roulette {
-  width: 1200px;
-  text-align: center;
+.notice_sns {
+  width: 1000px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.main_notice {
+  display: flex;
+  width: 480px;
+}
+
+/*sns*/
+.main_sns {
+  display: flex;
+  width: 480px;
+}
+.media {
+  display: flex;
+}
+.media img {
+  width: 150px;
+}
+/* .media_youtube,
+.media_insta,
+.media_blog {
+  display: flex;
+} */
+/* .media a {
+  display: none;
+} */
+.media_insta a,
+.media_blog a {
+  display: none;
 }
