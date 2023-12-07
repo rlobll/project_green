@@ -8,7 +8,7 @@
     border: none
 }
 
-body, header, main, footer, div, nav, p, h1, h2, h3, h4, ul, li, dl, dt, dd, button, form, fieldset, address {
+body, header, main, footer, div, nav, p, h1, h2, h3, h4, ul, li, dl, dt, dd, button, form, fieldset, address, button, table, thead, th, td, tr, tbody {
     padding: 0;
     margin: 0
 }

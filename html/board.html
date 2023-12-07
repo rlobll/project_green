@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>맛따라멋따라::자랑하기</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/board.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
 </head>
 <body>
     <header class="header" id="header">
@@ -99,8 +103,7 @@
 
     <main id="main">
         <h2>맛집 자랑하기</h2>
-        <button type="button">글쓰기</button>
-
+        <button type="button" class="board_write_btn">글쓰기</button>
         <table>
             <thead>
                 <tr>
@@ -128,13 +131,22 @@
             </tbody>
         </table>
 
-        <form>
-            <fieldset>
-                <legend class="hide">검색하기</legend>
-                <label for="board_search">검색하기</label>
-                <input type="text" name="board_search" id="board_search">
-            </fieldset>
-        </form>
+        <div class="number_wrap">
+          <a href="#none">1</a>
+          <a href="#none">2</a>
+          <a href="#none">3</a>
+        </div>
+        
+        <div class="board_search_wrap">
+          <form>
+              <fieldset>
+                  <legend class="hide">검색하기</legend>
+                  <label for="board_search" class="hide">검색하기</label>
+                  <input type="text" name="board_search" id="board_search">
+              </fieldset>
+          </form>
+          <button type="button" class="board_search_btn">검색</button>
+        </div>
     </main>
 
     <footer class="footer" id="footer">
