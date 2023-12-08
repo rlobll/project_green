@@ -16,7 +16,7 @@ ul, li {
     list-style: none
 }
 body {
-    font-family: "학교안심 분필" ;
+    font-family: "나눔고딕 코딩" ;
     font-size: 15px
 }
 a {
@@ -33,7 +33,8 @@ button {
     border: none;
     cursor: pointer;
     background: none;
+    font-family: "나눔고딕 코딩";
 }
-img {
+a, img {
     vertical-align: bottom;
 }

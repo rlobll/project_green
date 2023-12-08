@@ -1,0 +1,84 @@
+main {
+    width: 1000px;
+    margin: 100px auto;
+    position: relative;
+}
+main h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+main input {
+    display: block;
+}
+.write_wrap {
+    border: 1px solid #eee;
+    padding: 30px;
+    box-sizing: border-box;
+}
+main fieldset {
+    border-bottom: 1px solid #aaa;
+}
+.title_box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+#title {
+    border: 1px solid #cbcbcb;
+    outline: none;
+    padding: 10px;
+    width: 800px;
+    height: 35px;
+    box-sizing: border-box;
+}
+.title_box label {
+    width: 30px;
+}
+.content_box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+#content {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #cbcbcb;
+    outline: none;
+    padding: 15px;
+    box-sizing: border-box;
+}
+main form {
+    margin: 0 auto 60px;
+}
+.content_box label {
+    width: 30px;
+}
+.file_box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+#u_file {
+    width: 800px;
+}
+.submit_btn {
+    display: block;
+    margin: 0 auto;
+    background: #FFB862;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}

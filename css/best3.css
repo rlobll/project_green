@@ -34,13 +34,6 @@ main .top_menu h2:after {
     background: #FFB862;
     margin: 0 42.75px 0 15px
 }
-/* .top_menu span {
-    display: block;
-    width: 5px;
-    height: 50px;
-    background: #FFB862;
-    margin: 0 50px 0 15px;
-} */
 main .top_menu ul {
     width: 700px;
     display: flex;
@@ -81,8 +74,6 @@ main .top_menu ul li:last-child:hover {
     width: 60px;
     cursor: pointer;
 }
-
-
 /* 콘텐츠 */
 h3 {
     font-size: 35px;
@@ -93,31 +84,7 @@ h3 {
 section img {
     width: 500px;
 }
-.seoul_food1 img, .seoul_food3 img {
-    margin-right: 15px;
-}
-.seoul_food2 img {
-    margin-left: 15px;
-}
-.seoul_food1, .seoul_food2, .seoul_food3 {
-    border: 1px solid #cbcbcb;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-bottom: 150px;
-    display: flex;
-}
-.seoul_food2 {
-    flex-direction: row-reverse;
-}
-
-/* 한식 ~ 분식 */ 
-.food1 img, .food3 img {
-    margin-right: 15px;
-}
-.food2 img {
-    margin-left: 15px;
-}
-.food1, .food2, .food3 {
+.best_food1, .best_food2, .best_food3 {
     border: 1px solid #cbcbcb;
     padding: 15px;
     box-sizing: border-box;
@@ -125,25 +92,33 @@ section img {
     display: flex;
     position: relative;
 }
-.food2 {
+.best_food2 {
     flex-direction: row-reverse;
 }
 dl dt {
     font-size: 20px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 dl dd {
     font-size: 16px;
     margin-bottom: 5px;
 }
-.food1_info {
+.best_food1_info, .best_food3_info {
     display: flex;
     align-items: center;
+    width: 400px;
+    padding-left: 15px;
+    box-sizing: border-box;
 }
-.food1_info dl {
-    width: 365px;
+.best_food2_info{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding-right: 15px;
+    box-sizing: border-box;
 }
-.food1_info dd a, .food3_info dd a {
+.shortcut {
     color: #FFB862;
     position: absolute;
     top: 15px;
@@ -151,11 +126,18 @@ dl dd {
     font-weight: bold;
     font-size: 15px;
 }
-.food2_info dd a {
+.shortcut_reverse {
     color: #FFB862;
     position: absolute;
     top: 15px;
     left: 15px;
     font-weight: bold;
     font-size: 15px;
+}
+.more {
+    color: #FFB862;
+    font-weight: bold;
+    padding-top: 15px;
+    box-sizing: border-box;
+    display: block;
 }
