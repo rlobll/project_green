@@ -1,0 +1,42 @@
+.report_main {
+  position: relative;
+  z-index: 1;
+}
+.report_form {
+  width: 1000px;
+  margin: 100px auto 100px;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+legend {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+fieldset label {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+fieldset label span {
+  display: block;
+  width: 80px;
+  margin-right: 10px;
+}
+fieldset label input {
+  padding: 10px 10px;
+}
+.report_type {
+  display: flex;
+}
+.report_type div {
+  margin-right: 30px;
+}
+.file input {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
