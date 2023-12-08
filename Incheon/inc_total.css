@@ -3,15 +3,20 @@
   z-index: 1;
 }
 .main_total {
-  width: 1000px;
-  margin: 100px auto;
+  margin: 120px auto;
+}
+.incheon_total {
+  background: #fdf4e33c;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-bottom: 150px;
 }
 .incheon {
   width: 800px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto 100px;
+  margin: auto;
 }
 .incheon h2 {
   font-size: 25px;
