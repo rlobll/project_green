@@ -24,7 +24,8 @@ fieldset,
 legend,
 label,
 input,
-address {
+address,
+textarea {
   margin: 0;
   padding: 0;
 }
