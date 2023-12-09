@@ -22,7 +22,7 @@ legend {
 }
 fieldset label {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   align-items: center;
 }
 fieldset label span {
@@ -49,6 +49,7 @@ fieldset label input {
   height: 200px;
   padding: 10px 5px;
   box-sizing: border-box;
+  resize: none;
 }
 .file input {
   display: flex;
@@ -57,7 +58,15 @@ fieldset label input {
 }
 .report_btn button {
   border: 1px solid #ffb862;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 10px 20px;
   background: #ffb862;
+}
+form input,
+form textarea {
+  border-width: 0;
+  border-bottom: 1px solid #cbcbcb;
+}
+.report_file input {
+  margin-bottom: 15px;
 }

@@ -3,19 +3,19 @@
   z-index: 1;
 }
 .main form {
-  width: 1200px;
+  width: 1000px;
   display: flex;
-  margin: 100px auto;
+  margin: 150px auto;
   justify-content: center;
 }
 .main fieldset {
-  width: 500px;
+  /* width: 500px; */
   text-align: center;
 }
 .main legend {
   font-size: 35px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .id_pwd {
   display: flex;
@@ -23,7 +23,9 @@
   align-items: center;
 }
 .id_pwd input {
-  margin-bottom: 10px;
+  width: 260px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
   padding: 15px 10px 15px 40px;
   border: 1px solid #cbcbcb;
   border-radius: 7px;
@@ -41,19 +43,18 @@
 .state {
   display: flex;
   justify-content: center;
-  margin: 5px 0 20px;
+  margin: 5px 0 30px;
   font-size: 16px;
-  font-weight: bold;
 }
 .login_btn {
   display: flex;
-  width: 220px;
-  height: 45px;
+  width: 260px;
+  height: 50px;
   border: 1px solid #ffb862;
   border-radius: 7px;
   background: #ffb862;
   justify-content: center;
-  margin: 0 auto 20px;
+  margin: 0 auto 30px;
 }
 .login_btn button {
   color: white;
@@ -68,7 +69,6 @@
 .find a {
   padding: 0 10px;
   font-size: 16px;
-  font-weight: bold;
 }
 .id_find,
 .pwd_find {

@@ -1,0 +1,12 @@
+.kor img,
+span {
+  display: none;
+}
+.kor a::before {
+  content: "";
+  display: block;
+  background: url(../img/KakaoTalk_20231201_153025071.png);
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
