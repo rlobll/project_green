@@ -1,0 +1,49 @@
+.worldcup_main {
+  position: relative;
+  z-index: 1;
+}
+.worldcup {
+  width: 1000px;
+  text-align: center;
+  margin: 100px auto;
+}
+.worldcup h2 {
+  margin-bottom: 100px;
+}
+.go {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.go a {
+  padding: 10px;
+}
+.food {
+  position: relative;
+}
+.food div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.food img {
+  width: 430px;
+  height: 430px;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+.food p {
+  font-size: 40px;
+}
+.food span {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  /*글씨에 테두리 주는 방법*/
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  bottom: 20px;
+  padding-left: 30px;
+}
