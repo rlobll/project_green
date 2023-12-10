@@ -136,11 +136,11 @@ dl dd {
     font-size: 16px;
     margin-bottom: 5px;
 }
-.food1_info {
+.food1_info, .food2_info, .food3_info {
     display: flex;
     align-items: center;
 }
-.food1_info dl {
+.food1_info dl, .food2_info dl, .food3_info dl {
     width: 365px;
 }
 .food1_info dd a, .food3_info dd a {
@@ -158,4 +158,8 @@ dl dd {
     left: 15px;
     font-weight: bold;
     font-size: 15px;
+}
+
+#korean_food, #western_food, #chinese_food, #japanese_food, #snack_food {
+   
 }

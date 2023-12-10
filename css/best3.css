@@ -118,22 +118,6 @@ dl dd {
     padding-right: 15px;
     box-sizing: border-box;
 }
-.shortcut {
-    color: #FFB862;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-weight: bold;
-    font-size: 15px;
-}
-.shortcut_reverse {
-    color: #FFB862;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    font-weight: bold;
-    font-size: 15px;
-}
 .more {
     color: #FFB862;
     font-weight: bold;

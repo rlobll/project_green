@@ -1,0 +1,50 @@
+main {
+    width: 1000px;
+    margin: 100px auto 150px;
+    position: relative;
+}
+.korea_map_wrap {
+    position: relative;
+}
+.korea_map {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.seoul_box {
+    width: 30px;
+    height: 30px;
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    left: 411px;
+    top: 154px;
+}
+.seoul_map {
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    display: none;
+}
+.seoul_map_c {
+    display: block;
+}
+.incheon_map {
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    display: none;
+}
+.incheon_map:hover {
+    display: block;
+}
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+main h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
