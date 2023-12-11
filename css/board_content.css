@@ -66,6 +66,7 @@ main span {
     border: 1px solid #cbcbcb;
     padding: 5px;
     outline: none;
+    resize: none;
 }
 .comment_box_wrap {
     margin: 0 auto;

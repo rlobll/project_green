@@ -7,84 +7,8 @@
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <link rel="stylesheet" type="text/css" href="../css/header.css">
-    <style>
+    <link rel="stylesheet" type="text/css" href="../css/join.css">
 
-        /* 메인 */
-        main {
-            width: 1200px;
-            margin: 0 auto 80px
-        }
-        main h2 {
-            text-align: center;
-            margin: 60px;
-            font-size: 30px
-        }
-        main form {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        main input {
-            width: 200px;
-            border: 1px solid #cbcbcb;
-            padding: 13px;
-            border-radius: 7px;
-        }
-        .u_id {
-            margin-bottom: 15px;
-            position: relative;
-        }
-        #u_id {
-            padding-right: 75px;
-            box-sizing: border-box;
-            width: 228px;
-        }
-        .id_repeat {
-            position: absolute;
-            right: 8px;
-            top: 8px;
-        }
-        .u_pwd {
-            margin-bottom: 15px;
-        }
-        .u_repwd {
-            margin-bottom: 15px;
-        }
-        .u_name {
-            margin-bottom: 15px;
-        }
-        #tel {
-            margin-bottom: 5px;
-        }
-        .tel span {
-            color: gray;
-            font-size: 11px;
-            padding-left: 8px;
-            display: block;
-            margin-bottom: 10px;
-        }
-        .email {
-            margin-bottom: 30px;
-        }
-        /* .apply {
-            margin-bottom: 40px;
-        }
-        #apply {
-            width: 15px;
-        } */
-        main button {
-            background: #FFB862;
-            color: #fff;
-            border: none;
-            padding: 5px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        main .btn {
-            text-align: center;
-        }
-
-    </style>
 </head>
 <body>
     <header class="header" id="header">
@@ -176,7 +100,7 @@
             </div>
           </div>
         </div>
-      </header>
+    </header>
 
     <main id="main">
         <h2>회원가입</h2>
@@ -212,15 +136,10 @@
                     <label for="email"></label>
                     <input type="text" id="email" placeholder="이메일">
                 </p>
-            
-                <!-- <p class="apply">
-                    <input type="checkbox" name="apply" id="apply" value="y">
-                    <label for="apply">약관동의</label>
-                </p> -->
-                
-                <p class="btn">
-                    <button type="submit">회원가입</button>
-                    <button type="button">이전으로</button>
+
+                <p class="join_btn_wrap">
+                  <button type="button" class="prev_btn">이전으로</button>
+                  <button type="submit" class="join_btn">회원가입</button> 
                 </p>
 
             </fieldset>
@@ -267,6 +186,6 @@
             <a href="#none"><img src="../images/youtube_icon.png" alt="유튜브" /></a>
           </div>
         </div>
-      </footer>
+    </footer>
 </body>
 </html>

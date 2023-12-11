@@ -1,12 +1,12 @@
 main {
     width: 1000px;
-    margin: 100px auto;
+    margin: 120px auto 200px;
     position: relative;
 }
 main h2 {
     text-align: center;
     font-size: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .board_write_btn {
     background: #FFB862;
@@ -15,7 +15,7 @@ main h2 {
     border-radius: 5px;
     position: absolute;
     right: 0;
-    top: 70px;
+    top: 60px;
 }
 table {
     border-top: 1px solid gray;
@@ -23,7 +23,7 @@ table {
     width: 1000px;
     border-collapse: collapse;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 th {
     line-height: 1.4;
@@ -61,7 +61,8 @@ tr, td {
     border: 1px solid #cbcbcb;
     padding: 5px;
     border-radius: 5px;
-    width: 200px;
+    width: 250px;
+    outline: none;
 }
 
 tbody tr:nth-child(1) {

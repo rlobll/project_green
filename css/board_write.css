@@ -1,6 +1,6 @@
 main {
     width: 1000px;
-    margin: 100px auto;
+    margin: 120px auto 200px;
     position: relative;
 }
 main h3 {
@@ -12,12 +12,8 @@ main input {
     display: block;
 }
 .write_wrap {
-    border: 1px solid #eee;
     padding: 30px;
     box-sizing: border-box;
-}
-main fieldset {
-    border-bottom: 1px solid #aaa;
 }
 .title_box {
     display: flex;
@@ -27,6 +23,8 @@ main fieldset {
     margin-bottom: 20px;
     padding-bottom: 15px;
     box-sizing: border-box;
+
+    border-bottom: 1px solid #e5e5e5;
 }
 #title {
     border: 1px solid #cbcbcb;
@@ -47,6 +45,8 @@ main fieldset {
     padding-bottom: 15px;
     box-sizing: border-box;
     margin-bottom: 20px;
+
+    border-bottom: 1px solid #e5e5e5;
 }
 #content {
     width: 800px;
@@ -55,6 +55,7 @@ main fieldset {
     outline: none;
     padding: 15px;
     box-sizing: border-box;
+    resize: none;
 }
 main form {
     margin: 0 auto 60px;
@@ -77,8 +78,11 @@ main form {
 .submit_btn {
     display: block;
     margin: 0 auto;
+    text-align: center;
+    width: 100px;
     background: #FFB862;
     color: #fff;
-    padding: 6px;
+    padding: 8px 6px;
+    box-sizing: border-box;
     border-radius: 5px;
 }
