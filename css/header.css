@@ -9,6 +9,10 @@
   border-bottom: 2px solid #ffb862;
   position: relative;
 }
+.menu_wrap {
+  max-width: 1200px;
+  margin: auto;
+}
 .logo {
   font-family: "Crown 마이쮸 Regular", "Crown 마이쮸 R";
   width: 1200px;
@@ -92,6 +96,12 @@
 .input {
   width: 130px;
   padding: 6px 30px 6px 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.input:focus {
+  outline: none;
+  border-color: #ffb862;
 }
 .btn img {
   width: 25px;

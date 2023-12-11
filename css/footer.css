@@ -12,6 +12,7 @@
 }
 .logo_copy {
   display: flex;
+  align-items: center;
 }
 .bottom_logo {
   padding: 0 150px 0 30px;
@@ -26,8 +27,7 @@
   height: 150px;
 }
 .bottom_copy {
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 20px;
 }
 .bottom_menu {
   padding-bottom: 30px;

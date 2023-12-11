@@ -49,7 +49,7 @@ button {
   border-style: none;
   cursor: pointer;
   background: none;
-  font-family: inherit;
+  font-family: "나눔고딕 코딩";
 }
 .hide {
   position: absolute; /*앱솔루트를 사용하면 부모 자식이 인식을 못하는 상태로 떠서 어디로든 이동 가능*/
