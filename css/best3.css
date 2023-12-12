@@ -1,94 +1,29 @@
-/* 메인 */
 main {
-    margin: 120px auto 80px;
+    margin: 120px auto 200px;
+    width: 1000px;
 }
 
-/* 탑메뉴 */
-.bg {
-    background: #fdf4e33c;
-    padding: 30px;
-    box-sizing: border-box;
-    margin-bottom: 150px;
-}
-.content_wrap {
-    width: 1000px;
-    margin: 0 auto;
-}
-main .top_menu {
-    width: 800px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-}
-main .top_menu h2 {
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-}
-main .top_menu h2:after {
-    content: "";
-    display: block;
-    width: 2px;
-    height: 55px;
-    background: #FFB862;
-    margin: 0 42.75px 0 15px
-}
-main .top_menu ul {
-    width: 700px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-main .top_menu ul li img {
-    width: 60px;
-    display: block;
-    margin-bottom: 10px;
-}
-main .top_menu ul li {
-    text-align: center;
-    font-size: 18px
-}
-main .top_menu ul li:first-child:hover {
-    content: url(../images/korean_c.png);
-    width: 60px;
-    cursor: pointer;
-}
-main .top_menu ul li:nth-child(2):hover {
-    content: url(../images/piz_c.png);
-    width: 60px;
-    cursor: pointer;
-}
-main .top_menu ul li:nth-child(3):hover {
-    content: url(../images/chn_c.png);
-    width: 60px;
-    cursor: pointer;
-}
-main .top_menu ul li:nth-child(4):hover {
-    content: url(../images/jpn_c.png);
-    width: 60px;
-    cursor: pointer;
-}
-main .top_menu ul li:last-child:hover {
-    content: url(../images/tbk_c.png);
-    width: 60px;
-    cursor: pointer;
-}
-/* 콘텐츠 */
 h3 {
     font-size: 35px;
     text-align: center;
     font-weight: bold;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 section img {
     width: 500px;
 }
+
+.best_food1 img, .best_food3 img {
+    margin-right: 15px;
+}
+.best_food2 img {
+    margin-left: 15px;
+}
 .best_food1, .best_food2, .best_food3 {
     border: 1px solid #cbcbcb;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     display: flex;
     position: relative;
 }
@@ -97,31 +32,19 @@ section img {
 }
 dl dt {
     font-size: 20px;
-    font-weight: bold;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 dl dd {
-    font-size: 16px;
     margin-bottom: 5px;
-}
-.best_food1_info, .best_food3_info {
+}.best_food1_info, .best_food2_info, .best_food3_info {
     display: flex;
     align-items: center;
-    width: 400px;
-    padding-left: 15px;
-    box-sizing: border-box;
-}
-.best_food2_info{
-    display: flex;
-    align-items: center;
-    width: 400px;
-    padding-right: 15px;
-    box-sizing: border-box;
 }
 .more {
-    color: #FFB862;
+    color: #ffb862;
     font-weight: bold;
-    padding-top: 15px;
-    box-sizing: border-box;
-    display: block;
+}
+dl dd:last-child {
+    margin-top: 10px;
 }

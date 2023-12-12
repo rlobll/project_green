@@ -32,51 +32,69 @@ main .top_menu h2:after {
     width: 2px;
     height: 55px;
     background: #FFB862;
-    margin: 0 33px 0 15px
+    margin: 0 40px 0 14px
 }
-/* .top_menu span {
-    display: block;
-    width: 5px;
-    height: 50px;
-    background: #FFB862;
-    margin: 0 50px 0 15px;
-} */
 main .top_menu ul {
     width: 700px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-main .top_menu ul li img {
+.top_menu_korean_img, .top_menu_western_img, .top_menu_chinese_img, .top_menu_japanese_img, .top_menu_snack_img {
     width: 60px;
     display: block;
     margin-bottom: 10px;
 }
 main .top_menu ul li {
     text-align: center;
-    font-size: 18px
+    font-size: 18px;
 }
-main .top_menu ul li:first-child:hover {
+.top_menu_korean:hover {
     content: url(../images/korean_c.png);
     width: 60px;
     cursor: pointer;
 }
-main .top_menu ul li:nth-child(2):hover {
+.top_menu_icon_kor {
+    content: url(../images/korean_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_western:hover{
     content: url(../images/piz_c.png);
     width: 60px;
     cursor: pointer;
 }
-main .top_menu ul li:nth-child(3):hover {
+.top_menu_icon_wes {
+    content: url(../images/piz_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_chinese:hover {
     content: url(../images/chn_c.png);
     width: 60px;
     cursor: pointer;
 }
-main .top_menu ul li:nth-child(4):hover {
+.top_menu_icon_chn {
+    content: url(../images/chn_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_japanese:hover {
     content: url(../images/jpn_c.png);
     width: 60px;
     cursor: pointer;
 }
-main .top_menu ul li:last-child:hover {
+.top_menu_icon_jpn {
+    content: url(../images/jpn_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_snack:hover {
+    content: url(../images/tbk_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_icon_snack {
     content: url(../images/tbk_c.png);
     width: 60px;
     cursor: pointer;
@@ -93,23 +111,6 @@ h3 {
 section img {
     width: 500px;
 }
-.seoul_food1 img, .seoul_food3 img {
-    margin-right: 15px;
-}
-.seoul_food2 img {
-    margin-left: 15px;
-}
-.seoul_food1, .seoul_food2, .seoul_food3 {
-    border: 1px solid #cbcbcb;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-bottom: 150px;
-    display: flex;
-}
-.seoul_food2 {
-    flex-direction: row-reverse;
-}
-
 /* 한식 ~ 분식 */ 
 .food1 img, .food3 img {
     margin-right: 15px;
@@ -121,7 +122,7 @@ section img {
     border: 1px solid #cbcbcb;
     padding: 10px;
     box-sizing: border-box;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     display: flex;
     position: relative;
 }
@@ -159,7 +160,6 @@ dl dd {
     font-weight: bold;
     font-size: 15px;
 }
-
-#korean_food, #western_food, #chinese_food, #japanese_food, #snack_food {
-   
+.food_top3 {
+    display: none;
 }
