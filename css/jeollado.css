@@ -1,159 +1,233 @@
-/* 헤더 */
-header {
-    height: 200px;
-    background: #FDF4E3;
-    width: 1200px;
-    margin: 0 auto 100px;
-}
-h1 {
-    font-size: 30px;
-}
-
-
-
 /* 메인 */
 main {
-    width: 1200px;
-    margin: 0 auto 80px;
+    margin: 120px auto 200px;
 }
 
 /* 탑메뉴 */
-.top_menu {
+.bg {
+    background: #fdf4e33c;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+}
+.content_wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+main .top_menu {
+    max-width: 800px;
     display: flex;
-    margin: 0 auto 150px;
-    width: 800px;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-.top_menu h2 {
+main .top_menu h2 {
     font-size: 25px;
     display: flex;
     align-items: center;
 }
-.top_menu h2:after {
+main .top_menu h2:after {
     content: "";
     display: block;
-    width: 5px;
-    height: 50px;
+    width: 2px;
+    height: 55px;
     background: #FFB862;
-    margin: 0 50px 0 15px
+    margin: 0 40px 0 14px
 }
-/* .top_menu span {
-    display: block;
-    width: 5px;
-    height: 50px;
-    background: #FFB862;
-    margin: 0 50px 0 15px;
-} */
-.top_menu ul {
+main .top_menu ul {
+    width: 700px;
     display: flex;
-    width:500px;
     justify-content: space-between;
     align-items: center;
 }
-.top_menu ul li img {
-    width: 40px;
+.top_menu_korean_img, .top_menu_western_img, .top_menu_chinese_img, .top_menu_japanese_img, .top_menu_snack_img {
+    width: 60px;
     display: block;
     margin-bottom: 10px;
 }
-.top_menu ul li {
+main .top_menu ul li {
     text-align: center;
-    margin-right: 40px;
-    font-size: 16px
+    font-size: 18px;
 }
-.top_menu ul li:last-child {
-    margin-right: 0;
-}
-.top_menu ul li:first-child:hover {
+.top_menu_korean:hover {
     content: url(../images/korean_c.png);
-    width: 40px;
+    width: 60px;
     cursor: pointer;
 }
-.top_menu ul li:nth-child(2):hover {
+.top_menu_icon_kor {
+    content: url(../images/korean_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_western:hover{
     content: url(../images/piz_c.png);
-    width: 40px;
+    width: 60px;
     cursor: pointer;
 }
-.top_menu ul li:nth-child(3):hover {
+.top_menu_icon_wes {
+    content: url(../images/piz_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_chinese:hover {
     content: url(../images/chn_c.png);
-    width: 40px;
+    width: 60px;
     cursor: pointer;
 }
-.top_menu ul li:nth-child(4):hover {
+.top_menu_icon_chn {
+    content: url(../images/chn_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_japanese:hover {
     content: url(../images/jpn_c.png);
-    width: 40px;
+    width: 60px;
     cursor: pointer;
 }
-.top_menu ul li:last-child:hover {
+.top_menu_icon_jpn {
+    content: url(../images/jpn_c.png);
+    width: 60px;
+    cursor: pointer;
+}
+.top_menu_snack:hover {
     content: url(../images/tbk_c.png);
-    width: 40px;
+    width: 60px;
     cursor: pointer;
 }
-
+.top_menu_icon_snack {
+    content: url(../images/tbk_c.png);
+    width: 60px;
+    cursor: pointer;
+}
 
 
 /* 콘텐츠 */
-.korean_top3 h3 {
-    font-size: 28px;
+h3 {
+    font-size: 35px;
     text-align: center;
-    margin-bottom: 80px;
+    font-weight: bold;
+    margin-bottom: 100px;
 }
-.korean_top3 > div {
-    width: 1000px;
-    margin: 0 auto 160px;
+section img {
+    max-width: 500px;
 }
-.korean1 {
-    display: flex;
-    gap: 30px;
+/* 한식 ~ 분식 */ 
+.food1 img, .food3 img {
+    margin-right: 15px;
+}
+.food2 img {
+    margin-left: 15px;
+}
+.food1, .food2, .food3 {
     border: 1px solid #cbcbcb;
-}
-
-/* 이미지 크기 조정 */
-.korean_top3 img {
-    width: 300px;
-}
-/* // */
-
-.korean2 {
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 120px;
     display: flex;
-    gap: 30px;
+}
+.food2 {
     flex-direction: row-reverse;
-    border: 1px solid #cbcbcb;
 }
-.korean3 {
+dl dt {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+dl dd {
+    margin-bottom: 5px;
+}
+.food1_info, .food2_info, .food3_info {
     display: flex;
-    gap: 30px;
-    border: 1px solid #cbcbcb;
+    align-items: center;
 }
-.korean1_info {
+/* .food1_info dl, .food2_info dl, .food3_info dl {
+    width: 365px;
+} */
+.food1_info dd a, .food3_info dd a {
+    color: #FFB862;
+    font-weight: bold;
     font-size: 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
-.korean2_info {
+.food2_info dd a {
+    color: #FFB862;
+    left: 10px;
+    font-weight: bold;
     font-size: 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
-.korean3_info {
-    font-size: 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+dl dd:last-child {
+    margin-top: 10px;
+}
+.food_top3 {
+    display: none;
 }
 
 
 
+@media screen and (max-width: 1023px){
+    main .top_menu ul {
+        width: 570px;
+    }
+    .top_menu_korean_img, .top_menu_western_img, .top_menu_chinese_img, .top_menu_japanese_img, .top_menu_snack_img {
+        width: 50px;
+    }
+    .top_menu_korean:hover {
+        width: 50px;
+    }
+    .top_menu_icon_kor {
+        width: 50px;
+    }
+    .top_menu_western:hover{
+        width: 50px;
+    }
+    .top_menu_icon_wes {
+        width: 50px;
+    }
+    .top_menu_chinese:hover {
+        width: 50px;
+    }
+    .top_menu_icon_chn {
+        width: 50px;
+    }
+    .top_menu_japanese:hover {
+        width: 50px;
+    }
+    .top_menu_icon_jpn {
+        width: 50px;
+    }
+    .top_menu_snack:hover {
+        width: 50px;
+    }
+    .top_menu_icon_snack {
+        width: 50px;
+    }
+}
 
-/* 푸터 */
-footer {
-    height: 200px;
-    background: #FDF4E3;
-    width: 1200px;
-    margin: 0 auto;
+@media screen and (max-width: 767px){
+    main .top_menu {
+        flex-direction: column;
+    }
+    main .top_menu h2:after {
+        width: 55px;
+        height: 2px;
+        margin: 14px auto 40px;
+    }
+    main .top_menu h2 {
+        flex-direction: column;
+    }
+    main .top_menu ul {
+        width: 500px;
+    }
+    .food1, .food2, .food3 {
+        flex-direction: column;
+        max-width: 500px;
+        min-width: 500px;
+        margin: 0 auto 60px;
+    }
+    .food1 img, .food3 img {
+        margin: 0 0 20px;
+    }
+    .food2 img {
+        margin: 0 0 20px;
+    }
 }
