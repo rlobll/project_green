@@ -1,6 +1,6 @@
 /* 메인 */
 main {
-    width: 1200px;
+    max-width: 1200px;
     margin: 120px auto 200px;
 }
 main h2 {
@@ -15,7 +15,7 @@ main h2 {
     box-sizing: border-box;
     border: 1px solid #cbcbcb;
 }
-.apply_cont_wrap p {
+.apply_cont_wrap label {
     font-weight: bold;
 }
 .apply_all_wrap {
@@ -37,6 +37,9 @@ textarea {
     height: 70px;
     resize: none;
     font-size: 13px;
+    outline: none;
+    padding: 3px;
+    box-sizing: border-box;
 }
 .apply_wrap {
     width: 300px;
@@ -65,8 +68,17 @@ textarea {
     border-radius: 20px;
 }
 .btn2 {
-    border: 1px solid #FFB862;
-    background: #FFB862;
+    border: 1px solid #e1e1e1;
+    background: #e1e1e1;
+    display: block;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+}
+.btn_active {
+    border: 1px solid #ffb862;
+    background: #ffb862;
     display: block;
     width: 120px;
     height: 40px;

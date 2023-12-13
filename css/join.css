@@ -1,6 +1,6 @@
 /* 메인 */
 main {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto 200px
 }
 main h2 {

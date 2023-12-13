@@ -1,5 +1,5 @@
 main {
-    width: 1000px;
+    max-width: 1000px;
     margin: 100px auto 150px;
     position: relative;
 }

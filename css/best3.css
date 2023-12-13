@@ -1,6 +1,6 @@
 main {
     margin: 120px auto 200px;
-    width: 1000px;
+    max-width: 1000px;
 }
 
 h3 {

@@ -163,3 +163,61 @@ dl dd {
 .food_top3 {
     display: none;
 }
+
+
+
+@media screen and (max-width: 1023px){
+    main .top_menu ul {
+        width: 570px;
+    }
+    .top_menu_korean_img, .top_menu_western_img, .top_menu_chinese_img, .top_menu_japanese_img, .top_menu_snack_img {
+        width: 50px;
+    }
+    .top_menu_korean:hover {
+        width: 50px;
+    }
+    .top_menu_icon_kor {
+        width: 50px;
+    }
+    .top_menu_western:hover{
+        width: 50px;
+    }
+    .top_menu_icon_wes {
+        width: 50px;
+    }
+    .top_menu_chinese:hover {
+        width: 50px;
+    }
+    .top_menu_icon_chn {
+        width: 50px;
+    }
+    .top_menu_japanese:hover {
+        width: 50px;
+    }
+    .top_menu_icon_jpn {
+        width: 50px;
+    }
+    .top_menu_snack:hover {
+        width: 50px;
+    }
+    .top_menu_icon_snack {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    main .top_menu {
+        flex-direction: column;
+    }
+    main .top_menu h2:after {
+        width: 55px;
+        height: 2px;
+        margin: 0
+    }
+    main .top_menu h2 {
+        flex-direction: column;
+    }
+    main .top_menu ul {
+        width: 500px;
+    }
+}

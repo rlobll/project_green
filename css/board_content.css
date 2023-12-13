@@ -1,6 +1,6 @@
 main {
     margin: 120px auto 60px;
-    width: 1000px; 
+    max-width: 1000px; 
 }
 .content_box{
     border: 1px solid #eee;
@@ -26,7 +26,7 @@ main h2 {
 main span {
     border: 1px solid #eee;
     display: block;
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 .line1 {
@@ -40,14 +40,14 @@ main span {
     margin-right: 7px;
 }
 .content_detail {
-    width: 800px;
+    max-width: 800px;
     padding: 0 0 100px 0;
     margin: 0 auto 50px;
     border: 1px solid #000;
 }
 .like_comment_wrap {
     display: flex;
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto 10px;
     gap: 20px;
 }
@@ -61,7 +61,7 @@ main span {
     text-indent: -9999px;
 }
 #comment_box {
-    width: 800px;
+    max-width: 800px;
     height: 60px;
     border: 1px solid #cbcbcb;
     padding: 5px;
@@ -70,7 +70,7 @@ main span {
 }
 .comment_box_wrap {
     margin: 0 auto;
-    width: 800px;
+    max-width: 800px;
     position: relative;
 }
 .comment_box_wrap button {
