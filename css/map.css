@@ -27,9 +27,6 @@ main {
     left: 250px;
     display: none;
 }
-.seoul_map_c {
-    display: block;
-}
 .incheon_map {
     width: 500px;
     position: absolute;
@@ -37,9 +34,18 @@ main {
     left: 250px;
     display: none;
 }
-.incheon_map:hover {
-    display: block;
+.incheon_box {
+    width: 78px;
+    height: 89px;
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    left: 322px;
+    top: 131px;
 }
+/* .incheon_map:hover {
+    display: block;
+} */
 main h2 {
     text-align: center;
     margin-bottom: 20px;

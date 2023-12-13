@@ -11,12 +11,19 @@
 
     <script>
       window.onload = function(){
-        map1 = document.querySelector('.seoul_box');
-        map2 = document.querySelector('.seoul_map');
+        seoul_map = document.querySelector('.seoul_box');
+        seoul_map_large = document.querySelector('.seoul_map');
 
-        map1.addEventListener('click', function(){
-          map2.classList.add('seoul_map_c');
-        })
+        seoul_map.addEventListener('click', function(){
+          seoul_map_large.style.display = 'block';
+        });
+
+        incheon_map = document.querySelector('.incheon_box');
+        incheon_map_large = document.querySelector('.incheon_map');
+
+        incheon_map.addEventListener('click', function(){
+          incheon_map_large.style.display = 'block';
+        });
       }
     </script>
 </head>
@@ -119,9 +126,10 @@
         <div class="korea_map_wrap">
           <img class="korea_map" src="../images/koreamap.png" alt="전국맛집지도">
           <a href="#none" class="seoul_box"></a>
+          <a href="#none" class="incheon_box"></a>
         </div>
-        <img class="seoul_map" src="../images/seoulmap.jpg" alt="서울맛집지도">
-        <img class="incheon_map" src="../images/incheonmap.jpg" alt="인천맛집지도">
+        <img class="seoul_map" src="../images/seoulmap.png" alt="서울맛집지도">
+        <img class="incheon_map" src="../images/incheonmap.png" alt="인천맛집지도">
 
     </main>
 
