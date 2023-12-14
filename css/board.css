@@ -35,6 +35,24 @@ tr, td {
     border-bottom: 1px solid #cbcbcb;
     padding: 10px;
 }
+tr th:first-child {
+    width: 100px
+}
+tr th:last-child {
+    width: 55px
+}
+tr td:first-child {
+    width: 100px
+}
+tr td:last-child {
+    width: 55px
+}
+td div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .number_wrap {
     display: flex;
     gap: 30px;
@@ -90,4 +108,9 @@ tbody tr:nth-child(3) td:nth-child(2) {
 
 tbody tr td:nth-child(3) {
     font-size: 13px;
+}
+
+
+@media screen and (max-width: 767px){
+    th {}
 }

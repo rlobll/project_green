@@ -1,4 +1,5 @@
 window.onload = function(){
+    /*
     let uid = document.getElementById('u_id')
     let pwd = document.getElementById('u_pwd')
     let repwd = document.getElementById('u_repwd')
@@ -41,5 +42,6 @@ window.onload = function(){
         uname.focus();
         return false;
     }
+    */
 
 }

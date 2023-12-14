@@ -50,8 +50,22 @@ window.onload = function() {
             button.disabled = true;
             button.classList.remove('btn_active');
             button.classList.add('btn2');
-        }
+        }        
     }
+
+    // button.onclick=()=>{
+    //     //if( && ){
+    //     location.href="join.html"
+    //     //}
+    // }
+
+    button.addEventListener('click', function(){
+        if(button.disabled == false){
+            location.href = "join.html"
+        }
+    })
+
+
 
 }
 
